@@ -13,46 +13,65 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/stil.css">
+    
+
 </head>
 <body>
     <header class="header">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h1 class="logo">marslartin – <span data-hs-typed-options='{ "strings": ["sykepleier", "soldat", "gamer", "nerd"], "typeSpeed": 60, "loop": true, "backSpeed": 25, "backDelay": 1500 }'></span></h1>
-                </div>
-                <div class="col">
+        <div class="container-xxl">
+            <div class="row align-items-center">
+                <div class="col ">
+                    <nav class="navbar fixed-top navbar-light bg-light">
+                      <div class="container-fluid">
+                        <a class="navbar-brand logo" href="#"><span class="type-logo"></span></a>
+                        
+                      </div>
+                    </nav>
+                    <nav>
+                        
+                    </nav>
                 </div>
             </div>
         </div>
     </header>
     <main class="main">
-        <div class="container">
+        <div class="container-xxl">
             <div class="row">
                 <div class="col"></div>
             </div>
         </div>
     </main>
-    <footer class="footer">
-        <div class="container">
+    <footer class="footer fixed-bottom">
+        <div class="container-xxl">
             <div class="row">
-                <div class="col"></div>
+                <div class="col footer-text">
+                    <p>Lars Martin Sandbakken &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script></p>
+                </div>
                 <div class="col"></div>
             </div>
         </div>
     </footer>
     <!--SCRIPT-->
     <script src="js/bootstrap.bundle.js"></script>
-    <script src="js/hs.core.js"></script>
-    <script src="js/typed.min.js"></script>
-    <script src="js/hs.typed.js"></script>
+    <script src="js/typed.js"></script>
+    <script src="js/main.js"></script>
     <!--SCRIPT INIT-->
     <script>
-      (function() {
-        // INITIALIZATION OF TEXT ANIMATION (TYPING)
-        // =======================================================
-        HSCore.components.HSTyped.init('.js-text-animation')
-      });
+        var typed = new Typed('.type-logo', {
+          strings: ['larsmartin', 'marslartin'],
+          smartBackspace: true,
+          typeSpeed: 20,
+          backSpeed: 30,
+          loop: false,
+          loopCount: Infinity,
+          shuffle: false,
+          fadeOut: false,
+          fadeOutClass: 'typed-fade-out',
+          fadeOutDelay: 500,
+          showCursor: true,
+          cursorChar: '|',
+          autoInsertCss: true,
+        });
     </script>
 </body>
 </html>
