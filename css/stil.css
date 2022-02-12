@@ -3,25 +3,41 @@
     src: url(https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap);
 }
 
+:root {
+  --bs-light: #eeeeed!important;
+  --bs-dark: #232734!important;
+  --bs-primary: #276865!important;
+  --bs-secondary: #9ED4BF!important;
+  --bs-light-rgb: 238, 239, 237!important;
+  --bs-dark-rgb: 35, 39, 52!important;
+  --bs-primary-rgb: 39, 104, 101!important;
+  --bs-secondary-rgb: 158, 212, 191!important;
+
+}
+
 body {
     font-family: 'Cairo', sans-serif;
     background-color: ##eeeeed;
+    color: #232734;
 }
 
 .logo {
     font-weight: 700;
     font-size: 1.8rem;
-    color: #232734;
 }
 
 .footer-text {
     font-size: 0.8rem;
-    color: #232734;
+    color: var(--bs-dark);
 }
 
 .navbar {
     text-decoration: none;
     font-weight: 700;
     font-size: 1.8rem;
-    color: #232734;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
