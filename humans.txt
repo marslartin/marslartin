@@ -1,0 +1,11 @@
+/* AUTHOR */
+	Lars Martin Sandbakken
+	Contact: larsms[at]me.com
+	Twitter: @marslartin
+	From:Tromsø, Norway
+
+/* SITE */
+	Last update:2022-02-11
+	Language: Norwegian
+	Doctype:HTML5
+	IDE: Nova, Affinity Designer, Github
