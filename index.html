@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>marslartin</title>
     
-    <link rel="shortcut icon" href="./favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet" href="css/cookie-consent.css"/>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/stil.css">
     
@@ -24,11 +25,8 @@
                     <nav class="navbar fixed-top navbar-dark bg-primary">
                       <div class="container-fluid">
                         <a class="navbar-brand text-secondary logo" href="#"><span class="type-logo"></span></a>
-                        <a class="navbar text-secondary"></a>
+                        <a class="navbar text-secondary">CV</a>
                       </div>
-                    </nav>
-                    <nav>
-                        
                     </nav>
                 </div>
             </div>
@@ -42,16 +40,17 @@
         </div>
     </main>
     <footer class="footer fixed-bottom">
-        <div class="container-xxl">
-            <div class="row">
-                <div class="col footer-text">
-                    <p>Lars Martin Sandbakken &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script></p>
+            <div class="row ">
+                <dic class="col-md-4">
+                    <p class="footer-text">Lars Martin Sandbakken &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script><span class="justify-content-end"><a class="footer-text" href="javascript:cookieConsent.reset()">Informasjonskapsler</a></span></p>
                 </div>
-                <div class="col"></div>
+                <div class="col-md-4 justify-content-end">
+                    
+                </div>
             </div>
-        </div>
     </footer>
     <!--SCRIPT-->
+    <script src="js/cookie-consent.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/typed.js"></script>
     <script src="js/main.js"></script>
@@ -72,6 +71,9 @@
           cursorChar: '|',
           autoInsertCss: true,
         });
+    </script>
+    <script>
+        var cookieConsent = new CookieConsent({privacyPolicyUrl: "/personvern"});
     </script>
 </body>
 </html>
