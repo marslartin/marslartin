@@ -1,4 +1,4 @@
 - 👋 Hi, I’m @marslartin
 - 👀 I’m interested in gaming, fantasy and science fiction (books, series, films), language, LEGO and swimming.
-- 🌱 I’m currently learning to create more than just basic websites.
+- 🌱 I’m work as a nurse, but tinker with websites and servers on my spare time.
 - 📫 How to reach me: hei@marslartin.no
